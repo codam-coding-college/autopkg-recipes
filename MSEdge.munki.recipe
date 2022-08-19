@@ -55,11 +55,11 @@
 			<key>MSOfficeMacURLandUpdateInfoProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>aeb3164b81c5da51a33b0edec22b646ae89e3e29</string>
+				<string>57d1f19bb5cd0fbbf6fdb59488d1fef0c6996232</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOfficeMacURLandUpdateInfoProvider.py</string>
 				<key>sha256_hash</key>
-				<string>45779412145a1a8ac0f062adac4a0c741feca41c0ed64eddbf7568bd36715f9b</string>
+				<string>8573d1e5aa280142319d578ae6d8d6f57ee364c9038c1bb1327ccf3d415833c4</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
