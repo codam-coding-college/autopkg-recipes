@@ -6,12 +6,14 @@
 	<string>local.munki.Spotify</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://download.scdn.co/Spotify.dmg</string>
+		<key>DOWNLOAD_ARCH</key>
+		<string>ARM64</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string></string>
 		<key>NAME</key>
 		<string>Spotify</string>
+		<key>SUPPORTED_ARCH</key>
+		<string>arm64</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -36,6 +38,10 @@
                 # all executables are executable by group and other
                 /bin/chmod -R go+rX /Applications/Spotify.app
             </string>
+			<key>supported_architectures</key>
+			<array>
+				<string>%SUPPORTED_ARCH%</string>
+			</array>
 			<key>unattended_install</key>
 			<true/>
 		</dict>
@@ -51,20 +57,20 @@
 			<key>com.github.autopkg.download.Spotify</key>
 			<dict>
 				<key>git_hash</key>
-				<string>4f69d86d0d09b299d47b0f0197a03d97a67ad4ef</string>
+				<string>fe47666ce03dbc8ad564525f27ce615e4280fd7b</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>71b0fbf50f45a1b55b1cb483811bd129c590bc37e1bbed17defd1ad5609f5169</string>
+				<string>260a000965a5aa0768ab06f142cea894eedf74e1da82c72f66e9891fd474429b</string>
 			</dict>
 			<key>com.github.autopkg.munki.Spotify</key>
 			<dict>
 				<key>git_hash</key>
-				<string>e77d8193751dd3969b7d960139deb230a8008282</string>
+				<string>fe47666ce03dbc8ad564525f27ce615e4280fd7b</string>
 				<key>path</key>
 				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.munki.recipe</string>
 				<key>sha256_hash</key>
-				<string>07138fa4cbdd3e9f2a13765105722d375bb3257365c94a177dba7c63a60fe14b</string>
+				<string>c303e339f8359d39d14c2276847a222eb9b1ca3e148a0a62d60a729be928b32d</string>
 			</dict>
 		</dict>
 	</dict>
